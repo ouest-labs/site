@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1c2826;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.mesh {
+  background-image: url("/img/ouest-bg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: scroll;
+  display: flex;
+  position: sticky;
+  place-items: bottom;
+}
